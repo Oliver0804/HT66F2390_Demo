@@ -9,57 +9,75 @@ Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x
 
      Bank    Start     End      Length     Class    AvgIns    Name
      00h     0000h     0001h    0002h      CODE               @code (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
-     00h     0002h     0004h    0003h      CODE               @start (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
-     00h     0005h     0012h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     00h     0013h     0029h    0017h      CODE               _Delayms (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
-     00h     002ah     005ah    0031h      CODE               _main (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
-     00h     0080h     0080h    0001h      DATA     12        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
-     00h     0081h     0081h    0001h      DATA     7         @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0002h     0017h    0016h      CODE               _ISR_STM2 (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0018h     001ah    0003h      CODE               @start (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     001bh     0028h    000eh      CODE               _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0038h     003bh    0004h      CODE               @ISR_STM2_code (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     003ch     0052h    0017h      CODE               _Delayms (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0053h     007dh    002bh      CODE               _main (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0080h     0080h    0001h      DATA     3         @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     3         @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
      00h     0082h     0082h    0001h      DATA     3         @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     2         @data_r138 (isr:ra~rh)
+     00h     0084h     0084h    0001h      DATA     2         @data_r238 (isr:ra~rh)
+     00h     0085h     0085h    0001h      DATA     6         @data_ra38 (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     2         @data_r338 (isr:ra~rh)
 
      Local Sections
 
      Bank    Start     End      Length     Class    AvgIns    Name
-     00h     0086h     0086h    0000h      LOCAL    0         @dummy (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
-     00h     0086h     0086h    0000h      LOCAL    0         _main (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
-     00h     0084h     0085h    0002h      LOCAL    2         _Delayms (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
-     00h     0083h     0083h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0000h      LOCAL    0         @dummy56 (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0086h     0086h    0000h      LOCAL    0         _ISR_STM2 (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0089h     0089h    0000h      LOCAL    0         @dummy (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0089h     0089h    0000h      LOCAL    0         _main (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0087h     0088h    0002h      LOCAL    2         _Delayms (C:\Users\icetz\OneDrive\文件\HTK_Project\bicycle\BICYCLE.OBJ)
+     00h     0086h     0086h    0001h      LOCAL    2         _builtin_holtek_delay_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
 
      Public Symbols Information
      Address            Public by Name
-     0013h              _Delayms
-     0084h              _Delayms_2
-     000ah              __DELAYY0_isr00
-     0009h              __DELAYY1_isr00
-     0008h              __DELAYY2_isr00
-     0007h              __DELAYY3_isr00
-     0006h              __DELAYY4_isr00
-     0005h              __DELAYY5_isr00
-     0083h              _builtin_holtek_delay_isr00_2
-     002ah              _main
+     003ch              _Delayms
+     0087h              _Delayms_2
+     0002h              _ISR_STM2
+     0020h              __DELAYY0_isr00
+     001fh              __DELAYY1_isr00
+     001eh              __DELAYY2_isr00
+     001dh              __DELAYY3_isr00
+     001ch              __DELAYY4_isr00
+     001bh              __DELAYY5_isr00
+     0086h              _builtin_holtek_delay_isr00_2
+     0053h              _main
+     0083h              r138
+     0084h              r238
+     0089h              r338
      0080h              ra
+     0085h              ra38
      0081h              rb
      0082h              rc
 
      Address            Public by Value
-     0005h              __DELAYY5_isr00
-     0006h              __DELAYY4_isr00
-     0007h              __DELAYY3_isr00
-     0008h              __DELAYY2_isr00
-     0009h              __DELAYY1_isr00
-     000ah              __DELAYY0_isr00
-     0013h              _Delayms
-     002ah              _main
+     0002h              _ISR_STM2
+     001bh              __DELAYY5_isr00
+     001ch              __DELAYY4_isr00
+     001dh              __DELAYY3_isr00
+     001eh              __DELAYY2_isr00
+     001fh              __DELAYY1_isr00
+     0020h              __DELAYY0_isr00
+     003ch              _Delayms
+     0053h              _main
      0080h              ra
      0081h              rb
      0082h              rc
-     0083h              _builtin_holtek_delay_isr00_2
-     0084h              _Delayms_2
+     0083h              r138
+     0084h              r238
+     0085h              ra38
+     0086h              _builtin_holtek_delay_isr00_2
+     0087h              _Delayms_2
+     0089h              r338
 
 
 ROM Usage Statistics
     Bank      Size      Used     Percentage
-     00h       2000h     005bh    1%
+     00h       2000h     006fh    1%
      01h       2000h     0000h    0%
      02h       2000h     0000h    0%
      03h       2000h     0000h    0%
@@ -67,11 +85,11 @@ ROM Usage Statistics
      05h       2000h     0000h    0%
      06h       2000h     0000h    0%
      07h       2000h     0000h    0%
-     Total     10000h     005bh    0%
+     Total     10000h     006fh    0%
 
 RAM Usage Statistics
     Bank      Size      Used     Percentage
-     00h       0080h     0006h    4%
+     00h       0080h     000ah    7%
      01h       0080h     0000h    0%
      02h       0080h     0000h    0%
      03h       0080h     0000h    0%
@@ -103,12 +121,15 @@ RAM Usage Statistics
      1dh       0080h     0000h    0%
      1eh       0080h     0000h    0%
      1fh       0080h     0000h    0%
-     Total     1000h     0006h    0%
+     Total     1000h     000ah    0%
 
 Use Stack Count
+_ISR_STM2: 0
 _main: 2
 
 Call Tree
+    @dummy56
+        _ISR_STM2 (0)
     @dummy
         _main (0)
             _Delayms (1)
